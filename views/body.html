@@ -1,0 +1,47 @@
+Nodejs
+
+<div>{{name1}}</div>
+<image src="{{avatar1}}">
+<div>{{email1}}<br><br></div>
+
+<div>{{name0}}</div>
+<image src="{{avatar2}}">
+<div>{{email0}}<br><br></div>
+
+<div>{{name2}}</div>
+<image src="{{avatar3}}">
+<div>{{email2}}<br><br></div>
+
+<div>{{name6}}</div>
+<image src="{{avatar6}}">
+<div>{{email6}}<br><br></div>
+
+<div>{{name4}}</div>
+<image src="{{avatar4}}">
+<div>{{email4}}<br><br></div>
+
+<div>{{name5}}</div>
+<image src="{{avatar5}}">
+<div>{{email5}}<br><br></div>
+
+<div>{{name7}}</div>
+<image src="{{avatar7}}">
+<div>{{email7}}<br><br></div>
+
+<div>{{name8}}</div>
+<image src="{{avatar8}}">
+<div>{{email8}}<br><br></div>
+
+<div>{{name9}}</div>
+<image src="{{avatar9}}">
+<div>{{email9}}<br><br></div>
+
+<script>
+var html="";
+for(var i =0 ; i<10; i++){
+	html += '<div>{{name'+ i.toString() +'}}</div>';
+	html += '<image src=\"{{avatar'+i.toString() +'}}>';
+	html += '<div>{{email'+i.toString() +'}}</div>';
+}
+$(.body).append()
+</script>
